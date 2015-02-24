@@ -15,5 +15,5 @@
 
 module.exports = (robot) ->
   robot.respond /CLEAR$/i, (msg) ->
-    newLines = ("\n" for [0..25]).join("")
+    newLines = ("\n" for [0..60]).join("")
     msg.send "``` " + newLines + " ```"
