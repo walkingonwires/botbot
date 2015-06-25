@@ -29,11 +29,12 @@ module.exports = (robot) ->
 
   robot.respond /pawg bomb( (\d+))?/i, (msg) ->
     count = msg.match[2] || 5
-    msg.http(bomburl + count)
-      .get() (err, res, body) ->
-        pawgs = JSON.parse body
-        for pawg in pawgs
-          msg.send pawg.url
+    if allClear(msg)
+      msg.http(bomburl + count)
+        .get() (err, res, body) ->
+          pawgs = JSON.parse body
+          for pawg in pawgs
+            msg.send pawg.url
 
   robot.respond /how many pawgs are there/i, (msg) ->
     msg.http(counturl)
