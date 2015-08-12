@@ -13,7 +13,7 @@
 #   Allan Mohr
 
 tumblr = require 'tumblrbot'
-FAP = "fapfolder1.tumblr.com"
+FAP = "iwouldfapthat.tumblr.com"
 
 module.exports = (robot) ->
  robot.respond /fap/i, (msg) ->
