@@ -10,5 +10,6 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-youtube",
-  "hubot-custom-memes"
+  "hubot-custom-memes",
+  "hubot-daily-count-tracker"
 ]
