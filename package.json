@@ -9,7 +9,7 @@
     "hubot": "^2.11.0",
     "hubot-brain-inspect": "0.0.1",
     "hubot-custom-memes": ">0.0.0",
-    "hubot-daily-count-tracker": "^1.0.0",
+    "hubot-daily-count-tracker": "^1.1.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.2.6",
     "hubot-google-translate": "^0.1.0",
